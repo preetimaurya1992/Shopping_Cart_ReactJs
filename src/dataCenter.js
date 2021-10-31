@@ -56,9 +56,9 @@ const items = [
                 'Connector type: USB Type C',
                 'Display type: LCD'
         ],
+        image:'mobile2.jpg',
         quantity:50,
         rating: 4,
-        image:'oppo_a74',
         specification: {
                         'OS':	'‎Android 11',
                         'RAM':	'‎6 GB',
@@ -102,7 +102,7 @@ const items = [
         ],
         quantity:50,
         rating: 3,
-        image:'oppo_a74',
+        image:'mobile3.jpg',
         specification: {
                         'OS':	'‎Android 11',
                         'RAM':	'‎6 GB',

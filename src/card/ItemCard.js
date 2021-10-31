@@ -1,16 +1,20 @@
 import styles from './ItemCard.module.css';
 import data from '../dataCenter';
-import {ReactComponent as Rupee } from '../images/Indian-Rupee-symbol.svg';
+import {ReactComponent as Rupee } from '../svgImages/Indian-Rupee-symbol.svg';
 import Star from '../star/star';
 
 function ItemCard(props) {
     // const {categories,items,users, NavbarItem} = data;
     const {item}=props;
     console.log('item',props);
+    console.log('process.env.PUBLIC_URL',process.env.PUBLIC_URL);
+    const imagePath=`./images/${item.image}`;
   return (
     <div className={styles.itemContainer}>
       <div className={styles.imageContainer}>
-        <img src={require(`../images/mobile1.jpg`).default} alt="mobile" className={styles.itemImage}/>
+        {/* <img src={require(`../images/mobile1.jpg`).default} alt="mobile" className={styles.itemImage}/> */}
+        {/* <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" /> */}
+        <img src={imagePath} alt="mobile" className={styles.itemImage}/>
       </div>
       <div>
         <div className={styles.itemName}>
