@@ -1,0 +1,11 @@
+.container{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbarItem{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    color: #fff;
+}

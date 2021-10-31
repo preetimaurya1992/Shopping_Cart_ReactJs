@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemContainer {
+    /* background-color: blue; */
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+.itemName{
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemPrice {
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.itemRating{
+    display: flex;
+    justify-content: center;
+}
+
+.rupeeIcon{
+    height: 20px;
+    width: 20px;
+}
+
+.itemBody {
+    display: flex !important; 
+}
+
+.itemImage {
+    height: 300px;
+    /* width: 90%; */
+}
+.starIcon{
+
+}
