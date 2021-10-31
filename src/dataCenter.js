@@ -1,7 +1,7 @@
 const items = [
-    {
+    {   id:1,
         name: 'OPPO A74 5G',
-        category: 'mobile',
+        category: 'Mobile',
         price:15999,
         totalPrice:20999,
         desc: [
@@ -42,9 +42,9 @@ const items = [
         rating: 4
 
     },
-    {
+    {   id:2,
         name: 'OPPO A74 5G',
-        category: 'mobile',
+        category: 'Mobile',
         price:15999,
         totalPrice:20999,
         desc: [
@@ -87,8 +87,9 @@ const items = [
 
     },
     {
+        id:3,
         name: 'OPPO A74 5G',
-        category: 'mobile',
+        category: 'Mobile',
         price:15999,
         totalPrice:20999,
         desc: [
@@ -129,10 +130,43 @@ const items = [
         }
         
 
+    },
+    {
+        id:4,
+        name: "Rajnandini Women's Cotton Unstitched",
+        category: 'Cloth',
+        price:599.00,
+        totalPrice:699,
+        desc: [
+            "Care Instructions: Wash Care : Hand wash warm wash with like colors only non-chlorine bleach when needed tumble dry low warm iron if needed.Note :There might be little share variation between the actual product and image shown on the screen due to photography effect",
+            "Fabric: Cotton; Bottom style: Salwar",
+            "Kurta sleeve type: 3/4 Sleeve",
+            "Top color: Beige | Bottom color: Navy blue | Dupatta color: Beige & navy blue",
+            "Top length: 42 inches; Top size: 2.10 Mtr, Bottom size: 2.25 meters; Dupatta size: 2 meters",
+            "Unstitched printed salwar suit material",
+        ],
+        quantity:30,
+        rating: 1,
+        image:'cloth1.jpg',
+        specification: {
+            "Package Dimensions" :" ‎ 34.5 x 26.9 x 2.8 cm; 390 Grams",
+            "Date First Available":" ‎ 5 June 2019",
+            "ASIN":" ‎ B07SSB6HG2",
+            "Item part number":" ‎ JOPLPDP1006",
+            "Country of Origin":" ‎ India",
+            "Department":" ‎ Women",
+            "Manufacturer":" ‎ Rajnandini, UG-502, Shree Mahaveer Textile Market, Nr.Landmark Empire, Opp.Bhaktidham, Magob, Surat - 395010",
+            "Item Weight":" ‎ 390 g",
+            "Best Sellers": "#2,510 in Clothing & Accessories (See Top 100 in Clothing & Accessories)",
+        }
+        
+
     }
+
 ];
 const categories = ['Home','Mobile', 'Laptop','Cloth','Camera','Book'];
 const NavbarItem = [...categories, 'Login', 'Cart'];
+const nonFilterNav = ['Home','Login','Cart'];
 const users = {
         'preeti@gmail.com' : {
             name:'Preeti Maurya',
@@ -145,5 +179,5 @@ const users = {
             email:'test@gmail.com'
         }
     }
-const data = {items,categories,users, NavbarItem};
+const data = {items,categories,users, NavbarItem, nonFilterNav};
 export default data;
