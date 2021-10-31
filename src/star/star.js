@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Star.module.css';
-import { ReactComponent as FullStar } from '../images/full-star.svg';
-import { ReactComponent as EmptyStar } from '../images/empty-star.svg';
+import { ReactComponent as FullStar } from '../svgImages/full-star.svg';
+import { ReactComponent as EmptyStar } from '../svgImages/empty-star.svg';
 
 
 function Star(props) {
