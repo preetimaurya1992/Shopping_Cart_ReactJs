@@ -1,6 +1,7 @@
 import React from "react";
-import styles from './form/login.module.css';
+import styles from './login.module.css';
 const MyLogin = ()=>{
+  return(
 <div className={styles.formContainer}>
 <h1 className={styles.login}>Login Page</h1>
   <form className={styles.formMain}>
@@ -13,5 +14,6 @@ const MyLogin = ()=>{
     </div>
   </form>
 </div>
+  );
 }
 export default MyLogin;
