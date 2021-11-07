@@ -6,8 +6,8 @@ import Star from '../star/star';
 function ItemCard(props) {
     // const {categories,items,users, NavbarItem} = data;
     const {item}=props;
-    console.log('item',props);
-    console.log('process.env.PUBLIC_URL',process.env.PUBLIC_URL);
+    // console.log('item',props);
+    // console.log('process.env.PUBLIC_URL',process.env.PUBLIC_URL);
     const imagePath=`./images/${item.image}`;
   return (
     <div className={styles.itemContainer}>
@@ -24,6 +24,11 @@ function ItemCard(props) {
         </div>
         <div className={styles.itemRating}>
           <Star rating={item.rating} className={styles.starIcon}/>
+        </div>
+        <div className={styles.button1}>
+         <a> <button className={styles.cart}>add to Cart</button></a>
+         <a> <button className={styles.buy}>Buy now</button></a>
+
         </div>
       </div>
     </div>

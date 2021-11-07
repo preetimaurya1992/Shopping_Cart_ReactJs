@@ -5,7 +5,7 @@ import { ReactComponent as EmptyStar } from '../svgImages/empty-star.svg';
 
 
 function Star(props) {
-    console.log('star props',props);
+    // console.log('star props',props);
     const {rating} = props;
     const ratingArray = [...Array(5)];
     // const [rating,setRating]=useState(rating);

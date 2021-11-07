@@ -4,7 +4,7 @@ import data from '../dataCenter';
 function Navbar(props) {
     const {categories,items,users, NavbarItem} = data;
     const {category,setCategory} = props;
-    console.log('navbar props',props);
+    // console.log('navbar props',props);
   return (
     <div className={styles.container}>
       {
