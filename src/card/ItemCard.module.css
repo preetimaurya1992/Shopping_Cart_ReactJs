@@ -5,16 +5,20 @@
 .itemContainer {
     /* background-color: blue; */
     height: 300px;
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
     cursor: pointer;
+    margin-top: 80px;
+    
     
 }
+
 .imageContainer {
     display: flex;
     justify-content: center;
+    
 }
 .itemName{
     font-weight: 700;
@@ -43,6 +47,7 @@
 
 .itemBody {
     display: flex !important; 
+    margin-left: 45px;
 }
 
 .itemImage {
@@ -51,4 +56,27 @@
 }
 .starIcon{
 
+}
+.cart{
+    margin-left: 70px;
+    background-color: rgb(238, 140, 110);
+    color: white;
+    border-radius: 10%;
+    border: none;
+
+}
+.cart:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+        transform:scale(.60);
+}
+
+.buy{
+    margin-left: 60px;
+   background-color: rgb(238, 140, 110);
+     border: none;
+    color: white;
+    border-radius: 10%;
+}
+button1{
+    margin-top: 20px;
 }
