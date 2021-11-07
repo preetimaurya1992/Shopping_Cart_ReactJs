@@ -12,8 +12,6 @@ function ItemCard(props) {
   return (
     <div className={styles.itemContainer}>
       <div className={styles.imageContainer}>
-        {/* <img src={require(`../images/mobile1.jpg`).default} alt="mobile" className={styles.itemImage}/> */}
-        {/* <img src={process.env.PUBLIC_URL + '/logo.png'} alt="logo" /> */}
         <img src={imagePath} alt="mobile" className={styles.itemImage}/>
       </div>
       <div>

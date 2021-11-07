@@ -162,7 +162,6 @@ const items = [
         
 
     }
-
 ];
 const categories = ['Home','Mobile', 'Laptop','Cloth','Camera','Book'];
 const NavbarItem = [...categories, 'Login', 'Cart'];
