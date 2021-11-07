@@ -11,6 +11,11 @@
     cursor: pointer;
 }
 
+.textLink {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbarHover {
     background-color: red;
 }

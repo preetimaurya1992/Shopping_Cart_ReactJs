@@ -1,5 +1,6 @@
 import styles from './Navbar.module.css';
 import data from '../dataCenter';
+import {Link} from "react-router-dom";
 
 function Navbar(props) {
     const {categories,items,users, NavbarItem} = data;
@@ -11,10 +12,11 @@ function Navbar(props) {
           NavbarItem.map(currentCategory => {
             // <div className={"btn-group pull-right" + (this.props.showBulkActions ? ' show' : ' hidden')}>
               return (
-                <div 
-                  className={styles.navbarItem+ ' '+ (currentCategory === category ? styles.navbarHover : null)} 
-                  onClick={()=>setCategory(currentCategory)}>
-                  {currentCategory}
+                <div className={styles.navbarItem+ ' '+ (currentCategory === category ? styles.navbarHover : null)} 
+                onClick={()=>setCategory(currentCategory)}>
+                    <Link to={`/${currentCategory}`} className={styles.textLink}>
+                      {currentCategory}
+                    </Link>
               </div>
               )
           })
